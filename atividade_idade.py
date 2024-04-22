@@ -9,8 +9,10 @@ def inserirDados():
             elif (year > 2021):
                 print("Aceitamos apenas anos menores que 2021 e maiores que 1922, tente novamente.")
             else:
+                idade = 2024 - year
                 print(f"Seu nome é {nome}.")
                 print(f"Você nasceu no ano de {year}.")
+                print(f"Sua idade é de {idade} anos.")
                 break
         except:
             print("Você digitou uma entrada inválida, tente novamente!")
